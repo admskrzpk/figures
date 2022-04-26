@@ -5,8 +5,8 @@ class TriangleSpec extends AnyFlatSpec with should.Matchers {
   behavior of "Triangle"
   it should "return correct area of Triangle" in {
     val firstTriangle = Triangle(6,2,1)
-    val actual = firstTriangle.area(3)
-    val expected = 9
+    val actual = firstTriangle.area
+    val expected = 4
     actual shouldBe expected
   }
   it should "return correct perimeter of Triangle" in {

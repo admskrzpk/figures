@@ -1,4 +1,4 @@
-case class Rectangle (a: Int, b: Int) {
-  def perimeter: Int = 2 * a + 2 * b
-  def area: Int = a * b
+case class Rectangle (a: Int, b: Int) extends Figure {
+  def perimeter: Long = 2 * (a + b)
+  def area: Long = a * b
 }

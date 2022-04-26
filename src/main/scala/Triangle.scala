@@ -1,4 +1,4 @@
 case class Triangle(a: Int, b: Int, c: Int) {
-def perimeter : Int = a + b + c
-  def area(h: Int): Int = (a * h) /2
+  def perimeter: Int = a + b + c
+  def area: Int = (a + b + c) / 2
 }
